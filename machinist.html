@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Meqnzo-Events</title>
+        <link rel="stylesheet" href="events.css">
+    </head>
+    <body>
+        <div class="eventsheader">
+            <nav class="navbar" >
+                <img src="images/meqnzologo.png" class="logo" alt="logo">
+                <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+                <ul id="menu"> 
+                    <li> <a href="index.html" > Home </a></li>
+                    <li><a href="events.html"> Events </a></li>
+                    <li> <a href="https://forms.gle/nbhndpJooJmMam7K6" target="_blank"> Register </a></li>
+                </ul>
+            </nav>
+            <div class="eachevent">
+                <h2> Machinist</h2>
+                <h3>Description</h3>
+                <p> You will be given a workpiece. Along with your team member you should machine the workpiece as per the given dimensions. </p>
+                <br>
+                <h3>Rules</h3>
+                <ul>
+                    <li>There will be a total of two rounds</li>
+                    <li> Two persons per team</li>
+                    <li> Judges result is the final</li>
+                    <li> Final judgement will be based on the accuracy, surface finish and time consumed</li>
+                    <li> Teams involving in professional misconduct will be disqualified</li>
+                </ul>
+            </div>
+        </div>
+        <script>
+            function toggleMenu() {
+                var menu = document.getElementById('menu');
+                menu.classList.toggle('active');
+            }
+        </script>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Meqnzo-Events</title>
+        <link rel="stylesheet" href="events.css">
+    </head>
+    <body>
+        <div class="eventsheader">
+            <nav class="navbar" >
+                <img src="images/meqnzologo.png" class="logo" alt="logo">
+                <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+                <ul id="menu"> 
+                    <li> <a href="index.html" > Home </a></li>
+                    <li><a href="events.html"> Events </a></li>
+                    <li> <a href="https://forms.gle/nbhndpJooJmMam7K6" target="_blank"> Register </a></li>
+                </ul>
+            </nav>
+            <div class="eachevent">
+                <h2> Mech Quiz</h2>
+                <h3> Description</h3>
+                <p> You and your team will be challenged with a series of mechanical engineering related questions. The team which answers the most number of questions  would win.</p>
+                <br>
+                <h3> Rules</h3>
+                <ul>
+                    <li> Teams must consist of three members for this event</li>
+                    <li>Only registered teams will be allowed to participate this event</li>
+                    <li> Any form of cheating or misconduct will result in immediate disqualification</li>
+                    <li> The decision of the judging panel will be final</li>
+                </ul>
+            </div>
+        </div>
+        <script>
+            function toggleMenu() {
+                var menu = document.getElementById('menu');
+                menu.classList.toggle('active');
+            }
+        </script> 
