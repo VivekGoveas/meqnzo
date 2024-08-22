@@ -50,6 +50,46 @@ body, html {
     background-attachment: fixed;
     background-size: cover;
 }
+.machinistheader{
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.762),rgba(0, 0, 0, 0.312)),url('images/machinistbg.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.mechassheader{
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.762),rgba(0, 0, 0, 0.312)),url('images/mechpartassembl.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.mechquizheader{
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.762),rgba(0, 0, 0, 0.312)),url('images/mechquizbg.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.ideaexpoheader{
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.762),rgba(0, 0, 0, 0.312)),url('images/ideaexpobg.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.ppheader{
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.762),rgba(0, 0, 0, 0.312)),url('images/ppbg.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
 .events {
     font-size: 25px;
     text-align: center;
